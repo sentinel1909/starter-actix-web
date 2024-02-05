@@ -1,8 +1,8 @@
 // src/bin/main.rs
 
 // dependencies
-use actix_web_template_lib::configuration::Config;
-use actix_web_template_lib::startup;
+use starter_actix_web_lib::configuration::Config;
+use starter_actix_web_lib::startup;
 use std::net::TcpListener;
 
 // main function

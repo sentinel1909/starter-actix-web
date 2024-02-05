@@ -2,7 +2,7 @@
 
 // dependencies
 use actix_web::{test, App};
-use actix_web_template_lib::routes::health_check;
+use starter_actix_web_lib::routes::health_check;
 
 #[actix_web::test]
 async fn test_health_check() {
