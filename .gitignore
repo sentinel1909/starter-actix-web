@@ -1,4 +1,7 @@
 # .gitignore for the starter-actix-web repo
 
+# exclude potentially sensitive things
+.env
+
 # exclude build artifacts
 target/
